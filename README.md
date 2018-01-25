@@ -2,7 +2,7 @@
 
 ## :information_source: About
 
-This project is just a place for me learn how automated UI with Java. If you have any suggestions, please, let me know!
+Here you can find a simple way to generate your own Allure Report.
 
 ## :rocket: Roadmap
 
