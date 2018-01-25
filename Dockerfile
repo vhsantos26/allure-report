@@ -1,5 +1,5 @@
 FROM anapsix/alpine-java
-LABEL maintainer="Victor Hugo dos Santos (victor.santos@softexpert.com)"
+LABEL maintainer="Victor Hugo dos Santos (vhsantos26@gmail.com)"
 ARG version=2.5.0
 ADD https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/$version/allure-$version.tgz .
 RUN mkdir /allure && mkdir /allure-results && mkdir /allure-report && mkdir /allure-config \
