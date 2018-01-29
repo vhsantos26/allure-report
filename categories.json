@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Defeito no produto",
+    "matchedStatuses": [
+      "failed"
+    ]
+  },
+  {
+    "name": "Testes ignorados",
+    "matchedStatuses": [
+      "skipped"
+    ]
+  },
+  {
+    "name": "Problema de infraestrutura",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "traceRegex": ".*RuntimeException.*"
+  },
+  {
+    "name": "Testes com problema na codificação",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "traceRegex": ".*org.openqa.selenium.*",
+    "flaky": true
+  },
+  {
+    "name": "Testes com problema na codificação",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "traceRegex": ".*org.openqa.selenium.*"
+  }
+]
