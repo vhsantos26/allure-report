@@ -1,6 +1,7 @@
 # Allure report v. 2.5.0
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/vhsantos26/allure-report.svg)](https://hub.docker.com/r/vhsantos26/allure-report/) [![](https://images.microbadger.com/badges/image/vhsantos26/allure-report:latest.svg)](https://microbadger.com/images/vhsantos26/allure-report:latest) [![Docker Build Status](https://img.shields.io/docker/build/vhsantos26/allure-report.svg)](https://hub.docker.com/r/vhsantos26/allure-report/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/vhsantos26/allure-report.svg)](https://hub.docker.com/r/vhsantos26/allure-report/) [![](https://images.microbadger.com/badges/image/vhsantos26/allure-report.svg)](https://microbadger.com/images/vhsantos26/allure-report)
+
 
 ## About
 
