@@ -1,11 +1,11 @@
-# Allure report v. 2.5.0
+# Allure Report v. 2.5.0 
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/vhsantos26/allure-report.svg)](https://hub.docker.com/r/vhsantos26/allure-report/) [![](https://images.microbadger.com/badges/image/vhsantos26/allure-report.svg)](https://microbadger.com/images/vhsantos26/allure-report)
 
 
 ## About
 
-Here you can find a simple way to generate your own Allure Report. This image is based on Alpine Linux developed by ![anapsix](https://hub.docker.com/r/anapsix/) to keep the size down.
+Here you can find a simple way to generate your own Allure Report. This image is based on Alpine Linux developed by [anapsix](https://hub.docker.com/r/anapsix/) to keep the size down.
 
 ## Roadmap
 
