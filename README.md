@@ -30,8 +30,9 @@ Here you can find a simple way to generate your own Allure Report. This image is
 
 Example: 
 
-```docker
-  docker run --rm -v #allure-results-path:/allure-result -v $allure-report-path:/allure-report vhsantos26/allure-report
+```bash
+  allure_path=/usr/local/test-repo/
+  docker run --rm -v $allure_path/allure-results:/allure-results -v $allure_path/allure-report:/allure-report vhsantos26/allure-report
 ```
 
 ## Disclaimer
