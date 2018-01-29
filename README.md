@@ -1,33 +1,38 @@
-# Docker - Allure report
+# Allure report v. 2.5.0
 
-## :information_source: About
+[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)](https://hub.docker.com/r/vhsantos26/allure-report/) [![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/vhsantos26/allure-report/) [![ImageLayers Layers](https://img.shields.io/imagelayers/layers/_/ubuntu/latest.svg)](https://hub.docker.com/r/vhsantos26/allure-report/) [![ImageLayers Layers](https://img.shields.io/imagelayers/layers/_/ubuntu/latest.svg)](https://hub.docker.com/r/vhsantos26/allure-report/)
 
-Here you can find a simple way to generate your own Allure Report.
+## About
 
-## :rocket: Roadmap
+Here you can find a simple way to generate your own Allure Report. This image is based on Alpine Linux developed by ![anapsix](https://hub.docker.com/r/anapsix/) to keep the size down.
+
+## Roadmap
 
 ### Done
 
 - Create a Dockerfile with last version from Allure2
-- When it run, generate a report from allure-results
+- Custom categories
+- Trend history
 
 ### Undone
 
-- Push the image to Docker Hub
-- Custom categories
 - Custom launchers
 - Custom environments
 - Translate to PT-BR
 
-## :heavy_exclamation_mark: Requirements
+## Requirements
 
 - Docker
 - Allure results file
 
-## :arrow_forward: How to run
+## Usage
 
-- Clone this project
-- On path `docker-allure-report` execute `docker build --no-cache -t allure-report:1.0.0 .`
-- - Plus: If you want, you can pass to Dockerfile on build which version you want with `--build-arg version=#{VERSION_HERE}`
-- Execute `docker run --rm --name se-allure-report -v #{REPLACE_FOR_ALLURE_RESULTS_PATH}:/allure-results -v #{REPLACE_FOR_DESIRED_ALLURE_REPORT_PATH}:/allure-report allure-report:1.0.0`
-- Check report
+Example: 
+
+```docker
+  docker run --rm -v #allure-results-path:/allure-result -v $allure-report-path:/allure-report vhsantos26/allure-report
+```
+
+## Disclaimer
+
+By using Dockerfiles contained in this repo and/or container images derived from them, you are agreeing to any and all applicable license agreements & export rules related to unlimited strength crypto, etc..

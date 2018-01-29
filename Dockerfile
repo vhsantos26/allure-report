@@ -9,5 +9,6 @@ RUN mkdir /allure && mkdir /allure-results && mkdir /allure-report && mkdir /all
     && apk del gzip tar \
     && rm -rf allure-$version.tgz /var/cache/apk/*
 ENV PATH="/allure-$version/bin:$PATH" ALLURE_CONFIG="/allure-config/allure.properties"
+COPY categories.json .
 COPY generate-report.sh .
 CMD sh generate-report.sh

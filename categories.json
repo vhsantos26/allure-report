@@ -1,25 +1,25 @@
 [
   {
-    "name": "Defeito no produto",
+    "name": "Product defect",
     "matchedStatuses": [
       "failed"
     ]
   },
   {
-    "name": "Testes ignorados",
+    "name": "Ignored tests",
     "matchedStatuses": [
       "skipped"
     ]
   },
   {
-    "name": "Problema de infraestrutura",
+    "name": "Infra problem",
     "matchedStatuses": [
       "broken"
     ],
     "traceRegex": ".*RuntimeException.*"
   },
   {
-    "name": "Testes com problema na codificação",
+    "name": "Tests with codification problem",
     "matchedStatuses": [
       "broken"
     ],
@@ -27,7 +27,7 @@
     "flaky": true
   },
   {
-    "name": "Testes com problema na codificação",
+    "name": "Tests with codification problem",
     "matchedStatuses": [
       "broken"
     ],
