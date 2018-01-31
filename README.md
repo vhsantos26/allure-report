@@ -14,12 +14,12 @@ Here you can find a simple way to generate your own Allure Report. This image is
 - Create a Dockerfile with last version from Allure2
 - Custom categories
 - Trend history
+- Translate to PT-BR [#736](https://github.com/allure-framework/allure2/pull/736)
 
 ### Undone
 
 - Custom launchers
 - Custom environments
-- Translate to PT-BR
 
 ## Requirements
 
@@ -30,8 +30,7 @@ Here you can find a simple way to generate your own Allure Report. This image is
 
 Example: 
 
-```bash
-  allure_path=/usr/local/test-repo/
+```docker
   docker run --rm -v $allure_path/allure-results:/allure-results -v $allure_path/allure-report:/allure-report vhsantos26/allure-report
 ```
 
