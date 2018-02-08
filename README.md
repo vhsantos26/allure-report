@@ -31,7 +31,7 @@ Here you can find a simple way to generate your own Allure Report. This image is
 Example: 
 
 ```docker
-  docker run --rm -v $allure_path/allure-results:/allure-results -v $allure_path/allure-report:/allure-report vhsantos26/allure-report
+  docker run --rm -v allure-results:/allure-results -v allure-report:/allure-report -v allure-report-old/:/allure-history vhsantos26/allure-report
 ```
 
 ## Disclaimer
