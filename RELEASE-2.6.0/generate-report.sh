@@ -7,7 +7,7 @@ else
   echo "----|---- INFO: CATEGORY FILE ALREADY EXIST"
 fi
 
-if [ ls -A allure-history/history/ ]; then
+if [ "$(ls -A allure-history/history/)" ]; then
   echo "----|---- INFO: COPYING HISTORY FILES"
   cp -a allure-history/history/ allure-results/
 else 
